@@ -1,4 +1,4 @@
-﻿# Tg Group Music Player — The first open-source PyTgCalls based Pyrogram bot to play music in voice chats
+﻿# Tg Group Music Player — Open-Sourced PyTgCalls based Pyrogram bot to play music in Voice Chats
 
 ## Note
 
