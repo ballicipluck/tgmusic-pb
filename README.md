@@ -46,8 +46,7 @@ with Client(":memory:", api_id, api_hash) as app, open("session.txt", "w+") as s
    ```bash
    python main.py
    ```
-[]( //
-### Using Docker
+[](### Using Docker
 //
 1. Build:
    ```bash
@@ -56,8 +55,7 @@ with Client(":memory:", api_id, api_hash) as app, open("session.txt", "w+") as s
 2. Run:
    ```bash
    docker run --env-file .env musicplayer
-   ```
-)
+   ```)
 ### Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hackelite01/TgGroupMusicVcBot/)
 
