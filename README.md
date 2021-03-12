@@ -1,5 +1,6 @@
-﻿# Tg Group Music Player — Open-Sourced PyTgCalls based Pyrogram bot to play music in Voice Chats
-
+﻿# Telegram VC Music Player 
+### Open-Sourced PyTgCalls based Pyrogram bot to play music in Voice Chats
+---
 ## Note
 
 Neither this, or PyTgCalls are fully stable.
