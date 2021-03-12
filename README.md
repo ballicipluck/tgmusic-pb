@@ -1,8 +1,9 @@
-﻿# Tg Group Music Player — The first open-source PyTgCalls based Pyrogram bot to play music in voice chats
-
+﻿# Telegram VC Music Player 
+#### Open-Sourced PyTgCalls based Pyrogram bot to play music in Voice Chats
+---
 ## Note
 
-Neither this, or PyTgCalls are fully stable.
+PyTgCalls isn't fully stable yet. Maybe wait a little if you want a more stable version.
 
 ## Requirements
 
@@ -35,9 +36,8 @@ with Client(":memory:", api_id, api_hash) as app, open("session.txt", "w+") as s
     print("Session string has been saved to session.txt")
     print(session_string)
 ```
-
+<!---
 ### Without Docker
-
 1. Install Python requirements:
    ```bash
    pip install -r requirements.txt
@@ -46,9 +46,7 @@ with Client(":memory:", api_id, api_hash) as app, open("session.txt", "w+") as s
    ```bash
    python main.py
    ```
-
 ### Using Docker
-
 1. Build:
    ```bash
    docker build -t musicplayer .
@@ -57,7 +55,7 @@ with Client(":memory:", api_id, api_hash) as app, open("session.txt", "w+") as s
    ```bash
    docker run --env-file .env musicplayer
    ```
-
+--->
 ### Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hackelite01/TgGroupMusicVcBot/)
 
@@ -66,6 +64,6 @@ with Client(":memory:", api_id, api_hash) as app, open("session.txt", "w+") as s
 - Remember, If you try to enter the Voice Chat from the same user's account(whose `SESSION_STRING` you used), you will stop the music.
 - So, better login to a different account and enter the voice chat to hear the music.
 
- ## Join Us on Telegram
+ ## Join [Mayank](https://github.com/hackelite01) on Telegram
 
 <a href="https://t.me/hackelite01"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram" width="190" height="28"></a>
