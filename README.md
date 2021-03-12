@@ -35,9 +35,8 @@ with Client(":memory:", api_id, api_hash) as app, open("session.txt", "w+") as s
     print("Session string has been saved to session.txt")
     print(session_string)
 ```
-
+<!---
 ### Without Docker
-
 1. Install Python requirements:
    ```bash
    pip install -r requirements.txt
@@ -46,8 +45,7 @@ with Client(":memory:", api_id, api_hash) as app, open("session.txt", "w+") as s
    ```bash
    python main.py
    ```
-<!---### Using Docker
-//
+### Using Docker
 1. Build:
    ```bash
    docker build -t musicplayer .
