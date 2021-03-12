@@ -1,4 +1,4 @@
-﻿# Telegram VC Music Player 
+﻿# Telegram VC Music Player
 #### Open-Sourced PyTgCalls based Pyrogram bot to play music in Voice Chats
 ---
 ## Note
@@ -13,9 +13,11 @@ PyTgCalls isn't fully stable yet. Maybe wait a little if you want a more stable 
 - [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
 
 ### Credits
+Some original coders' names missing. Asking around for them. Will add them here once I find them.
+
 [Mayank](https://github.com/hackelite01)  - "Owner"
 
-[#ItsMe.](https://github.com/ballicipluck)
+[#ItsMe.](https://github.com/ballicipluck) - "Just made some smaallll modifications."
 
 ## Deployment
 
