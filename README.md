@@ -59,7 +59,7 @@ with Client(":memory:", api_id, api_hash) as app, open("session.txt", "w+") as s
    ```
 --->
 ### Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hackelite01/TgGroupMusicVcBot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ballicipluck/tgmusic-pb)
 
 ## After Deploying
 - Add the bot and the user(whose `SESSION_STRING` you used) to the group with admin privilages and start a voice chat manually once and leave it. (Don't end it).
