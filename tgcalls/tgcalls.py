@@ -5,7 +5,7 @@ import sira
 import config
 
 
-client = Client(config.SESSION_NAME, config.API_ID, config.API_HASH)
+client = Client(config.SESSION_STRING, config.API_ID, config.API_HASH)
 pytgcalls = PyTgCalls(client, 1512, False)
 
 

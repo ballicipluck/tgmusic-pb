@@ -11,26 +11,25 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!</b>
 
-I am Tg Group Music Bot, an open-source bot that lets you play music in your Telegram groups.
-
-Use the buttons below to know more about me.""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "Source code", url="https://t.me/hackelitebotsupport"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "Report", url="https://t.me/mayank_ka_b_for_bot"
-                    ),
-                    InlineKeyboardButton(
-                        "Channel for more", url="https://t.me/hackelitebotsupport"
-                    )
-                ]
-            ]
-        )
+I am Voice Chat Music Bot, an Open-Source bot that lets you play music in your Telegram groups.
+"""
+        # reply_markup=InlineKeyboardMarkup(
+        #     [
+        #         [
+        #             InlineKeyboardButton(
+        #                 "Source code", url="https://t.me/hackelitebotsupport"
+        #             )
+        #         ],
+        #         [
+        #             InlineKeyboardButton(
+        #                 "Report", url="https://t.me/mayank_ka_b_for_bot"
+        #             ),
+        #             InlineKeyboardButton(
+        #                 "Channel for more", url="https://t.me/hackelitebotsupport"
+        #             )
+        #         ]
+        #     ]
+        # )
     )
 
 
