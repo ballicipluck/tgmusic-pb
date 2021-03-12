@@ -63,6 +63,6 @@ with Client(":memory:", api_id, api_hash) as app, open("session.txt", "w+") as s
 - Remember, If you try to enter the Voice Chat from the same user's account(whose `SESSION_STRING` you used), you will stop the music.
 - So, better login to a different account and enter the voice chat to hear the music.
 
- ## Join Us on Telegram
+ ## Join [Mayank](https://github.com/hackelite01) on Telegram
 
 <a href="https://t.me/hackelite01"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram" width="190" height="28"></a>
